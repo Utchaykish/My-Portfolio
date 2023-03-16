@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+html, body {
+  background-image: url("coolbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin:0;
+  padding:0;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  }
+.container {
+  width: 1200px;
+  max-width: 100%;
+  min-height: 400px;
+  margin: 0 auto;
+}
+  .topnav a {
+    position: above;
+    width: 100;
+    float: right;
+    color: black;;
+    
+    text-align: center;
+    padding: 14px 16px;
+    margin:8px;
+    background-color:purple;
+    overflow:hidden;
+    font-size: 18px;
+  }
+  .topnav a:hover{
+      color:blue
+    }
+  .topnav a.active {
+    background-color: violet;
+    color: white;
+  }
+img[src]{
+    border-style: dashed;
+    border-color: blueviolet;
+    margin:auto;
+  padding:0;
+}
+.image{
+  text-align:center;
+}
+h1{
+  margin-bottom:0;
+}
+#Home {
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: Center;
+    font-size:8mm;
+    margin-top: 2px;
+    font-weight: 800px;
+    padding:2px;
+    margin-bottom:0;
+    color: blue;
+    font-style:bold;
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  }
+@keyframes slidein {
+  0% {
+    margin-left:100%;
+    width: 100%;
+  }
+  
+  50% {
+    margin-left:50%;
+    width: 50%;
+  }
+  
+  100% {
+    margin-left:0%;
+    width: 100%;
+  }
+}
+  h2 {
+    color:brown;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    font-weight:800px;
+  }
+  
+  hr {
+    size:8;
+    border-color:purple;
+    width:400px;
+  }
+#boxes {
+  margin:auto;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+  .box1 {
+    width:280px;
+    height:300px;
+    background-color:skyblue;
+    margin:10px;
+    padding:10px;
+    box-sizing: border-box;
+    display: inline-grid;
+    align-self:center
+  }
+  .box2 {
+    width:280px;
+    height:300px;
+    background-color:violet;
+    margin:10px;
+    padding:10px;
+    box-sizing: border-box;
+    display: inline-grid;
+    align-self:center
+  }
+  .box3 {
+    width:280px;
+    height:300px;
+    background-color:lightpink;
+    margin:10px;
+    padding:10px;
+    box-sizing: border-box;
+    display: inline-grid;
+    align-self:center
+  }
+a:hover{
+    color:red;
+}
+  h3 {
+    text-decoration:underline;
+    margin:0;
+    padding:0;
+  }
+  ol {
+    font-family: serif;
+    text-align: left;
+    font-size:5mm;
+    margin-top: 0;
+    font-weight: 600;
+    color:blue
+  }
+  ul {
+    font-family: serif;
+    text-align: left;
+    font-size:5mm;
+    margin-top: 0;
+    font-weight: 600;
+    color: purple;
+    line-height: 30px;
+  }
+  .ul1 {
+    font-family: serif;
+    text-align: left;
+    font-size:5mm;
+    margin-top: 0;
+    font-weight: 600;
+    color: blueviolet;
+    line-height: 20px;
+  }
+  .ul2 {
+    font-family: serif;
+    text-align: left;
+    font-size:5mm;
+    margin-top: 0;
+    font-weight: 600;
+    color: deeppink;
+    line-height: 20px;
+  }
+.box4 {
+    width:280px;
+    height:300px;
+    background-color:lavender;
+    margin:auto;
+    padding:10px;
+    box-sizing: border-box;
+    display: inline-grid;
+    align-self:center
+   text: align center;
+  }
+.ul4 {
+    font-family: serif;
+    text-align: left;
+    font-size:5mm;
+    margin-top: 0;
+    font-weight: 600;
+    color: darkgoldenrod;
+    line-height: 30px;
+  }
